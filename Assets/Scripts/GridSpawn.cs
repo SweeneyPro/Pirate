@@ -20,6 +20,6 @@ public class GridSpawn : MonoBehaviour {
 	void Update () {
 
         m_lineRenderer.SetPosition(0, transform.position);
-        m_lineRenderer.SetPosition(1, transform.position + transform.right * 100);
+        m_lineRenderer.SetPosition(1, transform.position + transform.up * 100);
 	}
 }
