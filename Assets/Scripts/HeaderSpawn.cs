@@ -17,12 +17,12 @@ public class HeaderSpawn : MonoBehaviour {
 		
         for (int i = 0; i < widthAxisCount; i++)
         {
-            Instantiate(m_headerArt, new Vector3(i, 0, 0), Quaternion.Euler(new Vector3(90,0,90)));
+            Instantiate(m_headerArt, new Vector3(i, 0, 0), Quaternion.Euler(new Vector3(90,0,0)));
         }
 
         for (int i = 0; i < heightAxisCount; i++)
         {
-            Instantiate(m_headerArt, new Vector3(0, 0, i), Quaternion.Euler(new Vector3(90, 0, 0)));
+            Instantiate(m_headerArt, new Vector3(0, 0, i), Quaternion.Euler(new Vector3(90, 0, -90)));
         }
 	}
 	
